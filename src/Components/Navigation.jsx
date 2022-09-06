@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/index.scss";
+import logo from "../Assets/images/logo11.png";
 
 const Navigation = () => {
   return (
@@ -16,7 +17,9 @@ const Navigation = () => {
           <li> Portrait </li>
         </NavLink>
         <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-          <li> home </li>
+          <li>
+            <img src={logo} alt="logo du site" />
+          </li>
         </NavLink>
         <NavLink to="/naissance" className={(nav) => (nav.isActive ? "nav-active" : "")}>
           <li> Naissance </li>

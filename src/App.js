@@ -8,6 +8,7 @@ import Portrait from "./Pages/Portrait";
 import Naissance from "./Pages/Naissance";
 import Bateme from "./Pages/Bateme";
 import Mariage from "./Pages/Mariage";
+import Presentation from "./Pages/Presentation";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/presentation" element={<Presentation />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/animaux" element={<Animaux />} />
         <Route path="/paysage" element={<Paysage />} />
