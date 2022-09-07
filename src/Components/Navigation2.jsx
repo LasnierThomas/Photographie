@@ -9,7 +9,7 @@ const Navigation2 = () => {
     window.location = "http://www.google.com";
   };
   let handleClick2 = () => {
-    window.location("http://www.firefox.com");
+    window.location = "http://www.firefox.com";
   };
 
   return (

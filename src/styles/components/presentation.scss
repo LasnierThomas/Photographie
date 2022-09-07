@@ -1,0 +1,22 @@
+.all-composants{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+
+
+}
+
+.picture {
+    
+    width: 100%;
+    margin: 45px;
+}
+.picture img{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px ;
+    height: 400px;
+    object-fit: cover;
+}

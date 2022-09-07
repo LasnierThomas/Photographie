@@ -1,0 +1,29 @@
+.all-blocks{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.description{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.contact li{
+    padding-bottom: 10px;
+    
+}
+.contact li p{
+    font-weight: bold;
+}
