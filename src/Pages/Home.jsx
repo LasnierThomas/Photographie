@@ -8,18 +8,23 @@ import "../styles/index.scss";
 
 const Home = () => {
   return (
-    <Carousel autoPlay interval={3000} infiniteLoop showIndicators={false} showStatus={false} >
-      {homeGallery.map((item, index) => {
-        return (
-          <div className="image-carousel" key={index} onClick={() => getImg(item.imgSrc)}>
-            <img src={item.imgSrc} />
-          </div>
-        );
-      })}
-<Navigation />
-<Navigation2 />
-
-    </Carousel>
+    <>
+      <div className="navigation-home">
+        <Navigation />
+      </div>
+      <Carousel autoPlay interval={3000} infiniteLoop showIndicators={false} showStatus={false}>
+        {homeGallery.map((item, index) => {
+          return (
+            <div className="image-carousel" key={index} onClick={() => getImg(item.imgSrc)}>
+              <img src={item.imgSrc} />
+            </div>
+          );
+        })}
+      </Carousel>
+      <div className="navigation2-home">
+        <Navigation2 />
+      </div>
+    </>
   );
 };
 

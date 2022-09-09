@@ -1,11 +1,26 @@
 .carousel{
-    display:flex
-    
+    display:relative;
+    margin: 0;
+
 }
 
 .carousel .thumbs{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 10px;
+    display: none;
 }
+
+.navigation-home{
+    position: absolute;
+    z-index: 100;
+    background-color: #ffffff99;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation2-home{
+    position: absolute;
+    top: 1078px;
+    background-color: #ffffff99;
+    width: 100%;
+    text-align: center;
+}
+

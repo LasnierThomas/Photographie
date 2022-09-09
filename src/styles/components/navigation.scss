@@ -1,10 +1,13 @@
 .navigation{
     ul {
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 100px 25px 100px 25px;
+        margin: 48px 25px 30px 25px;
         padding: 0px;
+        
+        
         
         a{
             text-decoration: none;
@@ -15,9 +18,11 @@
             display: flex;
             font-family: font1;
             font-size: 35px;
-            color: $color3;
+            color: $color1;
             margin: 0 50px 0 50px;
             cursor:  pointer;
+            width: 110px;
+            
 
             &:hover{
                 color: $color2;
@@ -61,7 +66,15 @@
 
     img{
         width: 250px;
-        margin-top: -50px;
+        margin: -50px 0px 0px -60px;
 
     }
+
+    .icons{
+        
+        margin: -45px 0 0 35px;
+        width: 50px;
+    }
 }
+
+
