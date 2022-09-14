@@ -14,7 +14,7 @@ const Navigation2 = () => {
 
   return (
     <div>
-      <div className="navigation">
+      <div className="navigation2">
         <ul>
           <NavLink to="/presentation" className={(nav) => (nav.isActive ? "nav-active" : "")}>
             <li>Présentation</li>

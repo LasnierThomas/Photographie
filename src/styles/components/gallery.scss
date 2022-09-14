@@ -95,3 +95,41 @@
     padding: 5px;
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 1080px) {
+    .text{
+        margin-left: 20%;
+    }
+
+    .image{
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+  
+
+    .text{
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .allGalery{
+        margin-top: 30px;
+    }
+    .image{
+        width: 90%;
+    }
+
+    .text{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+    

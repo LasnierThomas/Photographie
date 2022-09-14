@@ -6,6 +6,7 @@
 
 .carousel .thumbs{
     display: none;
+    
 }
 
 .navigation-home{
@@ -18,9 +19,25 @@
 
 .navigation2-home{
     position: absolute;
-    top: 1078px;
+    top: 1087px;
     background-color: #ffffff99;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+    .navigation-home{
+    top:0px
+    }
+
+    .carousel{
+        top:265px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .carousel{
+        top:480px;
+    }
 }
 
