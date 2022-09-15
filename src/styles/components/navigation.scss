@@ -157,7 +157,7 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
     .navigation {
         
 
@@ -196,23 +196,29 @@
 
         ul{
          background-color: #ffffff99;
-         margin: 35px 0px 35px 40px;
+         margin: 35px -86px 35px -85px;
          flex-wrap: nowrap;
          align-items: center;
-        }
+        
 
         li{
             padding: 10px;
+            margin: 0px -131px 0 20px;
+        }
         }
 
         .left-nav{
             flex-direction: column;
             align-content: flex-start;
+            margin-right: 93px;
+
         }
 
         .right-nav{
             flex-direction: column;
             align-content: flex-end;
+            margin-right: 70px;
+            margin-left: 124px;
         }
         
         img{
@@ -225,6 +231,7 @@
     }
     .navigation2{
         margin-left: 80px;
+        margin: 0;
     }
 
 }
@@ -233,26 +240,20 @@
 
     .navigation{
         
-        ul{
-            flex-direction: column;
-            margin: 0;
-            width: 100%;
-        }
+            ul{
+                flex-direction: column;
+                
+                width: 100%;
 
-      
-        
-
+                li{
+                    margin: 0;
+                }
+            }
         .left-nav{
-            
-            margin-left: 150px;   
+            margin-left: 171px;
         }
 
-        .right-nav{
-            margin-left: 80px;
-        }
 
-       
-        
         img{
             padding: 10px 0 10px 0;
             width: 100%;
@@ -263,7 +264,7 @@
     }
 
     .navigation2{
-        margin-right: 0;
+        margin-left: 75px;
         ul{
 
             margin: 50px 0px 35px 0px;
