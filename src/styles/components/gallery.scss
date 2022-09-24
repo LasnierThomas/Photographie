@@ -1,16 +1,16 @@
 .allGalery{
     background-color: #F2F2F2;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: auto;
     border-radius: 20px;
 }
 
 .text{
     font-size: 35px;
     font-family: font1;
-    margin-left: 30%;
+    
 }
 
 .gallery{
@@ -23,9 +23,7 @@
 
 .image{
     
-    border-radius: 20px;
     display: flex;
-    flex-flow: column wrap;
     margin: 20px;
     width: 30%;
     line-height: 10%;
@@ -35,7 +33,6 @@
 .image img{
      width: 96%;
     display: flex;
-    flex-wrap: wrap;
     border-radius: 30px ;
     height: 400px;
     object-fit: cover;

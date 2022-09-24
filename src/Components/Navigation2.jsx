@@ -6,10 +6,10 @@ import { FaInstagram } from "react-icons/fa";
 
 const Navigation2 = () => {
   let handleClick1 = () => {
-    window.location = "http://www.google.com";
+    window.location = "https://www.facebook.com/profile.php?id=100082640416692";
   };
   let handleClick2 = () => {
-    window.location = "http://www.firefox.com";
+    window.location = "https://www.instagram.com/lea.j_photographie/";
   };
 
   return (

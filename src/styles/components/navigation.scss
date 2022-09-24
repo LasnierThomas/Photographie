@@ -4,6 +4,7 @@
     justify-content: center;
 
     ul {
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -19,19 +20,17 @@
             display: flex;
             font-family: font1;
             font-size: 35px;
-            color: $color1;
+            color: $color3;
             margin: 0 20px 0 20px;
             cursor:  pointer;
-            width: 220px;
-            color: black;
+            width: 210px;
+            
             
             &:hover{
                 color: $color2;
             }
 
-            &:visited{
-                color: $color2;
-            }
+           
         }
     }
 

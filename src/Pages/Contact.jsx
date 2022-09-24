@@ -11,19 +11,18 @@ const Contact = () => {
       <Navigation />
       <section className="all-blocks">
         <div className="description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, magnam! Odit voluptates illum quae iste non, praesentium commodi inventore rem sapiente, atque quod ducimus maxime culpa
-          voluptatum earum excepturi ad corporis,animi vero laboriosam tempora veniam ab. Eos et ratione animi, ducimus laudantium nisi in consequatur, quia quos nam soluta?
+            Si vous désirez réaliser vos projets n'hésitez pas à me soliciter via les contacts ci-dessous
         </div>
         <div className="contact">
           <ul>
             <li>
               <p>
-                <FiMail name="email" /> Email:
+                <FiMail name="email" /> Email: lea.jphotographie@gmail.com
               </p>
             </li>
             <li>
               <p>
-                <FaPhoneSquareAlt name="phone" /> Téléphone:
+                {/* <FaPhoneSquareAlt name="phone" /> Téléphone:  */}
               </p>
             </li>
             <li>
