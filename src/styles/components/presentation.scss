@@ -36,6 +36,10 @@
 @media screen and (max-width: 1180px) {
     .picture{
         margin-top: 160px;
+        width: 28%;
+    }
+    .about{
+        width:60%;
     }
 }
 
@@ -50,16 +54,21 @@
 
     .all-composants{
         flex-direction: column;
+        align-items: center;
              
                 
     }
 
     .picture{
-        margin: 0 10px 30px 10px;
+        
+        margin: 0 0px 30px 44px;
+        width: 100%;
     }
 
     .about{
         width: 90%;
+        margin-left: 40px;
     }
+
 
 }
