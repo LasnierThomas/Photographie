@@ -12,15 +12,22 @@ const Animaux = () => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
+  
+document.oncontextmenu = function () {
+  return false;
+};
+
   return (
     <>
       <Navigation />
-      <div className={model? "model open" : "model"}>
+      <div className={model ? "model open" : "model"}>
         <img src={tempImgSrc} />
-        <FaWindowClose className='stop' onClick={() => setModel(false)}> </FaWindowClose>
+        <FaWindowClose className="stop" onClick={() => setModel(false)}>
+          {" "}
+        </FaWindowClose>
       </div>
       <section className="allGalery">
-        <p className='text'>Vous pouvez agrandir les photographies en cliquant dessus </p>
+        <p className="text">Vous pouvez agrandir les photographies en cliquant dessus </p>
         <div className="gallery">
           {animauxGallery.map((item, index) => {
             return (

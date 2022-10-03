@@ -1,6 +1,7 @@
 .carousel{
-    display:relative;
+    position:relative;
     margin: 0;
+    width: auto;
 
 }
 
@@ -24,6 +25,7 @@
 }
 
 .navigation2-home{
+   
     position: absolute;
     top: 1087px;
     width: 100%;
@@ -74,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 730px) {
     .carousel{
         top: 555px;
     }

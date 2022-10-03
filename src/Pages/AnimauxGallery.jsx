@@ -8,6 +8,11 @@ import animaux7 from "../Assets/imageAnimaux/image7.jpg";
 import animaux8 from "../Assets/imageAnimaux/image8.jpg";
 import animaux9 from "../Assets/imageAnimaux/image9.jpg";
 import animaux10 from "../Assets/imageAnimaux/image10.jpg";
+// import animaux11 from "../Assets/imageAnimaux/image11.jpg";
+// import animaux12 from "../Assets/imageAnimaux/image12.jpg";
+// import animaux13 from "../Assets/imageAnimaux/image13.jpg";
+// import animaux14 from "../Assets/imageAnimaux/image14.jpg";
+// import animaux15 from "../Assets/imageAnimaux/image15.jpg";
 
 export const animauxGallery = [
   {
@@ -50,4 +55,24 @@ export const animauxGallery = [
     id: 10,
     imgSrc: animaux10,
   },
+  // {
+  //   id: 11,
+  //   imgSrc: animaux11,
+  // },
+  // {
+  //   id: 12,
+  //   imgSrc: animaux12,
+  // },
+  // {
+  //   id: 13,
+  //   imgSrc: animaux13,
+  // },
+  // {
+  //   id: 14,
+  //   imgSrc: animaux14,
+  // },
+  // {
+  //   id: 15,
+  //   imgSrc: animaux15,
+  // },
 ];

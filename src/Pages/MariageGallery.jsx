@@ -8,6 +8,11 @@ import mariage7 from "../Assets/imageMariage/image7.jpg";
 import mariage8 from "../Assets/imageMariage/image8.jpg";
 import mariage9 from "../Assets/imageMariage/image9.jpg";
 import mariage10 from "../Assets/imageMariage/image10.jpg";
+// import mariage11 from "../Assets/imageMariage/image11.jpg";
+// import mariage12 from "../Assets/imageMariage/image12.jpg";
+// import mariage13 from "../Assets/imageMariage/image13.jpg";
+// import mariage14 from "../Assets/imageMariage/image14.jpg";
+// import mariage15 from "../Assets/imageMariage/image15.jpg";
 
 export const mariageGallery = [
   {
@@ -50,4 +55,24 @@ export const mariageGallery = [
     id: 10,
     imgSrc: mariage10,
   },
+  // {
+  //   id: 11,
+  //   imgSrc: mariage11,
+  // },
+  // {
+  //   id: 12,
+  //   imgSrc: mariage12,
+  // },
+  // {
+  //   id: 13,
+  //   imgSrc: mariage13,
+  // },
+  // {
+  //   id: 14,
+  //   imgSrc: mariage14,
+  // },
+  // {
+  //   id: 15,
+  //   imgSrc: mariage15,
+  // },
 ];

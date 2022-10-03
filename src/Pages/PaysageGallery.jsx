@@ -8,6 +8,11 @@ import paysage7 from "../Assets/imagePaysage/image7.jpg";
 import paysage8 from "../Assets/imagePaysage/image8.jpg";
 import paysage9 from "../Assets/imagePaysage/image9.jpg";
 import paysage10 from "../Assets/imagePaysage/image10.jpg";
+// import paysage11 from "../Assets/imagePaysage/image11.jpg";
+// import paysage12 from "../Assets/imagePaysage/image12.jpg";
+// import paysage13 from "../Assets/imagePaysage/image13.jpg";
+// import paysage14 from "../Assets/imagePaysage/image14.jpg";
+// import paysage15 from "../Assets/imagePaysage/image15.jpg";
 
 export const paysageGallery = [
   {
@@ -50,4 +55,24 @@ export const paysageGallery = [
     id: 10,
     imgSrc: paysage10,
   },
+  // {
+  //   id: 11,
+  //   imgSrc: paysage11,
+  // },
+  // {
+  //   id: 12,
+  //   imgSrc: paysage12,
+  // },
+  // {
+  //   id: 13,
+  //   imgSrc: paysage13,
+  // },
+  // {
+  //   id: 14,
+  //   imgSrc: paysage14,
+  // },
+  // {
+  //   id: 15,
+  //   imgSrc: paysage15,
+  // },
 ];

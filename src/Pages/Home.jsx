@@ -7,6 +7,11 @@ import { Carousel } from "react-responsive-carousel";
 import "../styles/index.scss";
 
 const Home = () => {
+
+document.oncontextmenu = function () {
+  return false;
+};
+
   return (
     <>
       <div className="navigation-home">

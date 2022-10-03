@@ -12,6 +12,11 @@ const Mariage = () => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
+
+  document.oncontextmenu = function () {
+    return false;
+  };
+
   return (
     <>
       <Navigation />

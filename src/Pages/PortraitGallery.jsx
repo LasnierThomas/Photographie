@@ -8,6 +8,11 @@ import portrait7 from "../Assets/imagePortrait/image7.jpg";
 import portrait8 from "../Assets/imagePortrait/image8.jpg";
 import portrait9 from "../Assets/imagePortrait/image9.jpg";
 import portrait10 from "../Assets/imagePortrait/image10.jpg";
+// import portrait11 from "../Assets/imagePortrait/image11.jpg";
+// import portrait12 from "../Assets/imagePortrait/image12.jpg";
+// import portrait13 from "../Assets/imagePortrait/image13.jpg";
+// import portrait14 from "../Assets/imagePortrait/image14.jpg";
+// import portrait15 from "../Assets/imagePortrait/image15.jpg";
 
 export const portraitGallery = [
   {
@@ -50,4 +55,24 @@ export const portraitGallery = [
     id: 10,
     imgSrc: portrait10,
   },
+  // {
+  //   id: 11,
+  //   imgSrc: portrait11,
+  // },
+  // {
+  //   id: 12,
+  //   imgSrc: portrait12,
+  // },
+  // {
+  //   id: 13,
+  //   imgSrc: portrait13,
+  // },
+  // {
+  //   id: 14,
+  //   imgSrc: portrait14,
+  // },
+  // {
+  //   id: 15,
+  //   imgSrc: portrait15,
+  // },
 ];

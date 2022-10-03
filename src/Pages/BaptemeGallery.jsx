@@ -8,6 +8,11 @@ import bapteme7 from "../Assets/imageBapteme/image7.jpg";
 import bapteme8 from "../Assets/imageBapteme/image8.jpg";
 import bapteme9 from "../Assets/imageBapteme/image9.jpg";
 import bapteme10 from "../Assets/imageBapteme/image10.jpg";
+// import bapteme11 from "../Assets/imageBapteme/image11.jpg";
+// import bapteme12 from "../Assets/imageBapteme/image12.jpg";
+// import bapteme13 from "../Assets/imageBapteme/image13.jpg";
+// import bapteme14 from "../Assets/imageBapteme/image14.jpg";
+// import bapteme15 from "../Assets/imageBapteme/image15.jpg";
 
 export const baptemeGallery = [
   {
@@ -50,4 +55,24 @@ export const baptemeGallery = [
     id: 10,
     imgSrc: bapteme10,
   },
+  // {
+  //   id: 11,
+  //   imgSrc: bapteme11,
+  // },
+  // {
+  //   id: 12,
+  //   imgSrc: bapteme12,
+  // },
+  // {
+  //   id: 13,
+  //   imgSrc: bapteme13,
+  // },
+  // {
+  //   id: 14,
+  //   imgSrc: bapteme14,
+  // },
+  // {
+  //   id: 15,
+  //   imgSrc: bapteme15,
+  // },
 ];
