@@ -7,7 +7,7 @@ import bapteme6 from "../Assets/imageBapteme/image6.jpg";
 import bapteme7 from "../Assets/imageBapteme/image7.jpg";
 import bapteme8 from "../Assets/imageBapteme/image8.jpg";
 import bapteme9 from "../Assets/imageBapteme/image9.jpg";
-import bapteme10 from "../Assets/imageBapteme/image10.jpg";
+// import bapteme10 from "../Assets/imageBapteme/image10.jpg";
 // import bapteme11 from "../Assets/imageBapteme/image11.jpg";
 // import bapteme12 from "../Assets/imageBapteme/image12.jpg";
 // import bapteme13 from "../Assets/imageBapteme/image13.jpg";
@@ -51,10 +51,10 @@ export const baptemeGallery = [
     id: 9,
     imgSrc: bapteme9,
   },
-  {
-    id: 10,
-    imgSrc: bapteme10,
-  },
+  // {
+  //   id: 10,
+  //   imgSrc: bapteme10,
+  // },
   // {
   //   id: 11,
   //   imgSrc: bapteme11,

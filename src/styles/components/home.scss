@@ -1,8 +1,17 @@
 .carousel{
     position:relative;
     margin: 0;
-    width: auto;
+    width: 40%;
 
+}
+.image-carousel{
+    width: 100%;
+    
+}
+.image-carousel img{
+    
+    height: 950px;
+    
 }
 
 .carousel .thumbs{
@@ -43,10 +52,7 @@
 .navigation2-home{
     // position: absolute;
     // top: 1087px;
-    // width: 100%;
-        
-
-        
+    // width: 100%; 
     }
 
 }
@@ -88,5 +94,13 @@
         position: relative;
         top: 500px;
     }
+
+    .image-carousel img{
+        
+        height: 400px;
+        margin-bottom: 30px;
+    
 }
+}
+
 
