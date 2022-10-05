@@ -13,9 +13,6 @@ const Portrait = () => {
     setModel(true);
   };
 
-document.oncontextmenu = function () {
-  return false;
-};
 
   return (
     <>

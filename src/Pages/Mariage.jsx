@@ -13,9 +13,6 @@ const Mariage = () => {
     setModel(true);
   };
 
-  document.oncontextmenu = function () {
-    return false;
-  };
 
   return (
     <>

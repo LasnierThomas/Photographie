@@ -13,9 +13,6 @@ const Naissance = () => {
     setModel(true);
   };
 
-document.oncontextmenu = function () {
-  return false;
-};
 
   return (
     <>

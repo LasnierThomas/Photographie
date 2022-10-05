@@ -13,9 +13,7 @@ const Animaux = () => {
     setModel(true);
   };
   
-document.oncontextmenu = function () {
-  return false;
-};
+
 
   return (
     <>

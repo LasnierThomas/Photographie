@@ -26,15 +26,13 @@
 
 .navigation2-home{
    
-    position: absolute;
-    top: 1087px;
-    width: 100%;
+    
     text-align: center;
 
      .navigation2{
         
          ul li{
-        color: white;
+        color: black;
     }
     }
 }
@@ -43,7 +41,10 @@
 @media screen and (max-width: 1180px) {
 
 .navigation2-home{
-        top: 585px;
+    // position: absolute;
+    // top: 1087px;
+    // width: 100%;
+        
 
         
     }
@@ -62,6 +63,8 @@
     }
 
     .navigation2-home{
+        position: absolute;
+        width: 100%;
         top: 850px;
         .navigation2{
         
@@ -82,7 +85,8 @@
     }
 
     .navigation2-home{
-        top: 850px;
+        position: relative;
+        top: 500px;
     }
 }
 

@@ -6,18 +6,13 @@ import "../styles/index.scss";
 import { FaWindowClose } from "react-icons/fa";
 
 const Bapteme = () => {
-
   const [model, setModel] = useState(false);
-  const [tempImgSrc, setTempImgSrc] = useState('');
+  const [tempImgSrc, setTempImgSrc] = useState("");
   const getImg = (imgSrc) => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
 
-  document.oncontextmenu = function () {
-    return false;
-  };
-  
   return (
     <>
       <Navigation />

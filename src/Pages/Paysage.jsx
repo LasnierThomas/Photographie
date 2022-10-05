@@ -13,9 +13,6 @@ const Paysage = () => {
     setModel(true);
   };
 
-document.oncontextmenu = function () {
-  return false;
-};
 
   return (
     <>
