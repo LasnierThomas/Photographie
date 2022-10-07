@@ -5,7 +5,9 @@
 
 }
 .image-carousel{
-    width: 100%;
+    padding-top: 50px;
+    width: 85%;
+    margin-left: 6.5%;
     
 }
 .image-carousel img{
@@ -20,7 +22,7 @@
 }
 
 .navigation-home{
-    position: absolute;
+    
     z-index: 100;
     width: 100%;
     text-align: center;
@@ -28,7 +30,7 @@
     .navigation{
 
          ul li{
-        color: $color1;
+        color: $color3;
     }
     }
 }
@@ -49,11 +51,11 @@
 
 @media screen and (max-width: 1180px) {
 
-.navigation2-home{
-    // position: absolute;
-    // top: 1087px;
-    // width: 100%; 
-    }
+.image-carousel img{
+    
+    height: 700px;
+    
+}
 
 }
 @media screen and (max-width: 820px) {
@@ -69,7 +71,7 @@
     }
 
     .navigation2-home{
-        position: absolute;
+        // position: absolute;
         width: 100%;
         top: 850px;
         .navigation2{
@@ -80,20 +82,15 @@
     }
     }
 
-    .carousel{
-        top:280px;
-    }
+    .image-carousel img{
+    
+    height: 550px;
+    
+}
 }
 
 @media screen and (max-width: 730px) {
-    .carousel{
-        top: 555px;
-    }
-
-    .navigation2-home{
-        position: relative;
-        top: 500px;
-    }
+ 
 
     .image-carousel img{
         

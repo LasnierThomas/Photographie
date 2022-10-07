@@ -10,23 +10,19 @@ const Contact = () => {
     <>
       <Navigation />
       <section className="all-blocks">
-        <div className="description">
-            Si vous désirez réaliser vos projets n'hésitez pas à me soliciter via les contacts ci-dessous
-        </div>
+        <div className="description">Si vous désirez réaliser vos projets n'hésitez pas à me soliciter via les contacts ci-dessous</div>
         <div className="contact">
           <ul>
             <li>
               <p>
-                <FiMail name="email" /> Email: lea.jphotographie@gmail.com
+                <FiMail name="email" /> <span className="underline">Email:</span> lea.jphotographie@gmail.com
               </p>
             </li>
             <li>
-              <p>
-                {/* <FaPhoneSquareAlt name="phone" /> Téléphone:  */}
-              </p>
+              <p>{/* <FaPhoneSquareAlt name="phone" /> Téléphone:  */}</p>
             </li>
             <li>
-              <p>Réseaux:</p>Pour plus de photo rendez vous sur mes différent réseaux en bas de la page
+              <p className="underline">Réseaux:</p>Pour en découvrir davantage rejoignez moi sur mes réseaux
             </li>
           </ul>
         </div>
