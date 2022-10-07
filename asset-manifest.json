@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/photographie/static/css/main.5656a7d0.css",
-    "main.js": "/photographie/static/js/main.9f19aa13.js",
+    "main.css": "/photographie/static/css/main.4482919d.css",
+    "main.js": "/photographie/static/js/main.e0e302a0.js",
     "static/media/image10.jpg": "/photographie/static/media/image10.c4513a9d0600297b0605.jpg",
     "static/media/image8.jpg": "/photographie/static/media/image8.36c2cc87eebeb2c429b8.jpg",
     "static/media/image4.jpg": "/photographie/static/media/image4.e176f72020f6cd0e0794.jpg",
@@ -21,11 +21,11 @@
     "static/media/image14.jpg": "/photographie/static/media/image14.38d8465f7b3cb57990d9.jpg",
     "static/media/AlexBrush-Regular.ttf": "/photographie/static/media/AlexBrush-Regular.b50947ef756f43126a52.ttf",
     "index.html": "/photographie/index.html",
-    "main.5656a7d0.css.map": "/photographie/static/css/main.5656a7d0.css.map",
-    "main.9f19aa13.js.map": "/photographie/static/js/main.9f19aa13.js.map"
+    "main.4482919d.css.map": "/photographie/static/css/main.4482919d.css.map",
+    "main.e0e302a0.js.map": "/photographie/static/js/main.e0e302a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5656a7d0.css",
-    "static/js/main.9f19aa13.js"
+    "static/css/main.4482919d.css",
+    "static/js/main.e0e302a0.js"
   ]
 }
